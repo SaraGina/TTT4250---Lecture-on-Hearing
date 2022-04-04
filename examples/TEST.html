@@ -1,0 +1,698 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+
+	  <div class="reveal">
+	    <div class="slides">
+
+
+	      <section data-background="assets/Hearing_front_page.jpg">
+	        <h2>TTT4250 - Lecture 5: Hearing</h2>
+	        <h6 id="email-first">sara.martin@ntnu.no</h6>
+	        <aside class="notes">
+	        </aside>
+	      </section>
+
+
+	      <section class="stack">
+	        <h2>Outline</h2>
+	        </br>
+	        <ol style="width: 100%;">
+	          <li><span style="color:#3a84b8;">The auditory system:</span> how does our ear work?</li>
+	          <li><span style="color:#3a84b8;">Classical Audiometry:</span> the "gold standard" technique to measure hearing</li>
+	          <li><span style="color:#3a84b8;">NEWT Audiometry:</span> developed by SINTEF and NTNU</li>
+	          <li><span style="color:#3a84b8;">Hearing protectors:</span> Lab task</li>
+	        </ol>
+
+	        <aside class="notes">
+
+	        </aside>
+	      </section>
+
+
+	      <section>
+
+	        <h4 class="title"><em>The auditory system</em></h4>
+
+	        <span style="color:#3a84b8;">The ear:</span> very efficient <span style="color:#3a84b8;">TRANSDUCER</span> changing <span style="color:#3a84b8;">SOUND PRESSURE</span> in the air into a <span style="color:#3a84b8;">NEURAL-ELECTRICAL</span>
+	        signal translated by the brain as speech, music, noise, etc.
+	        <br>
+	        <br>
+
+	        <img src="assets/Ear_parts.jpg" alt="Websocket" width="40%" style="float: center">
+
+	        <aside class="notes">
+	          The ear transmits, among others, 3 basic physical properties of sound waves:
+	          <b>
+	            <ol>
+	              <li> frequency,</li>
+	              <li> time duration,</li>
+	              <li> and level of the sound.</li>
+
+	</ol>
+	              </b> Those are the fundamental properties defining a <b>sound wave</b> and from which one is able to reconstruct that sound.
+
+	        </aside>
+
+
+	      </section>
+
+	      <section>
+
+	        <h4 class="title"><em>The auditory system</em></h4>
+
+	        <img src="assets/Ear_parts.jpg" alt="Websocket" width="70%" style="float: center">
+
+
+	        <aside class="notes">
+
+
+	          The ear has 3 different PARTS:
+	          <ol>
+	            <li> The <b>external ear</b>:
+	              <ol>
+	                <li>the pinna, which helps capture sound in the environment</li>
+	                <li>The external ear canal, which channels the sound to the eardrum (typanic membrane) separting external and middle ear</li>
+
+	              </ol>
+	            </li>
+	            <li>The<b> middle ear</b>: is COMPOSED by 3 bones: Malleus, Incus and Stapes (the smallest measuring 3x2.5 mm)</li>
+	            <li>The<b> inner ear</b>:
+	              <ol>
+	                <li>
+	                  auditory tube or EUSTACHIAN tube (underlying the sense of balance and equilibrium)</li>
+	                <li>the cochlea (underlying the sense of hearing): is quite a COMPLEXE structure which you will see in the following video and it contains very important sensory receptors, the HAIR CELLS. There are 2 different types:
+	                  <ol>
+	                    <li>The<b>INNER hair cells</b> which are TRANSLATING sound VIBRATION into NEURAL DISCHARGES. The BENDING of the hairs of the inner hair cells caused by these vibrations INDUCES a neural-electrical POTENTIAL that ACTIVATES a neural response
+	                      in auditory nerve that CONNECT the hair cells to the brainstem.</li>
+	                    <li>The<b> OUTER hair cells</b> serve a different PURPOSE. When their hairs are BENDED, the SIZE of the outer hair cells changes and the RAPID change in size (specially in LENGTH) amplifies the LOW-LEVEL SOUND that enters the cochlea.
+	                    </li>
+	                  </ol>
+	                </li>
+	              </ol>
+	            </li>
+	          </ol>
+
+	  <!-- For TEACHING!         It is definitely a fascinating organe and I would like to show this FANTASTIC video showing how it works and how the different structures are excited by a sound.
+	-->
+	        </aside>
+
+	      </section>
+
+
+
+	      <section>
+	        <video style="width: 100%" data-autoplay src="http://saraginamartin.com/wp-content/uploads/presentations/videos/AuditoryTransduction.mp4"></video>
+
+	        <aside class="notes">
+
+	  <!--  For TEACHING!          So which ones are the hair cells he was talking about on the video?
+	          <br>
+	          The INNER cells since they are the one PROVOCKING the electrical pulse to the nerve.
+	          <br>
+	          It is very Interesting to know how all these structures behave fo us to be able to hear. And very much research is going on on modeling this behaviour and completely understanding each of the functionalities so that NEW solutions to HEARING
+	          LOSS can be found.
+	-->
+	        </aside>
+
+	      </section>
+
+
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>The auditory system</em></h4>
+
+	        <h6 class="title">The tonotopical organization of the cochlea</h6>
+
+	        <img src="assets/Tonotopical_membrane.jpg" alt="Websocket" width="100%" style="float: center">
+
+
+	        <aside class="notes">
+	          So, as the video mentioned, the cochlea discriminates the frequency in an excellent manner: different regions of the basilar membrane are excited by different frequencies.
+	          <br>
+	          <ul>
+	            <li>The high frequencies cause a movement in the BASE of the cochlear</li>
+	            <li> Lower frequencies work at the APEX </li>
+
+	          </ul>
+	          We can think of it as a PIANO actually having low keys towards left and HIGHER keys towards the right.
+	          <br>
+	          This frequency tuning is closely linked to the electromotility of the outer hair cells.
+	        </aside>
+
+	      </section>
+
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>The auditory system</em></h4>
+	        <h6 class="title">Hearing threshold</h6>
+
+	        <ul>
+	          <li><span style="color:#3a84b8;">Frequency range:</span> 20 - 20.000 Hz </li>
+	          <li><span style="color:#3a84b8;">Dynamic range:</span> up to 120 dB (discomfort)</li>
+
+	        </ul>
+
+	        <img src="assets/Threshold_audible.png" alt="Websocket" width="60%" style="float: center">
+
+
+
+	        <aside class="notes">
+	          Now that we have discussed the functioning of our auditory system, let's see how do we actually experience sound.
+	          <br>
+	          The figure shows an averaged hearing treshold, the LOWEST SPL (LEVELS) for DETECTING TONAL SOUNDS of different frequencies when those sounds are approximately 500 milliseconds (ms) in duration.
+
+	          <ul>
+	            <li> <b>Units</b>: The thresholds are expressed in terms of decibels of SPL, where zero (0) dB SPL means that the sound pressure level is 20 micropascals (i.e., the referent sound pressure (pref) is 20 micropascals).</li>
+	            <li><b>dB HL</b>: Hearing level (so someone with 40 dB of Hearing LOSS at 500 Hz, the THRESHOLD for detecting 500Hz would be 50 dB SPL) </li>
+	            <li><b>Freq. range TESTED</b>: 250-8000 Hz which corresponds to the spectrum of speech sound
+	            <li><b>Different levels for different freq. </b>: more energy needed at low frequencies for us to hear them </li>
+
+	          </ul>
+	          What it is interesting to OBSERVE is that our EAR RESPONDS differently for EACH FREQUENCY, which means that the we need actually DIFFERENT SPLs to BE ABLE to hear DIFFERENT freq.
+	          <br>
+	          Ex: to hear at one at 250 Hz, we need at least 25 dB SPL; but we just need 10 dB SPLA to hear a tone at 8 kHz.
+	          <br>
+	          This figure is an AVERAGE curve for "NORMAL HEARING" population.
+	        </aside>
+
+	      </section>
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>The auditory system</em></h4>
+
+
+
+	        <h6 class="title">Equal Loudness Curves</h6>
+
+
+	        <img src="assets/Equal_Loudness_contour_curves.png" alt="Websocket" width="100%" style="float: center">
+
+
+	        <aside class="notes">
+
+	          Another plot which is very commonly used is what we call the Equal Loudness Curves. you may have probably hear about those.
+	          <ul>
+	            <li> On the ABCISSES we have Frequencies</li>
+	            <li> on the y-axis, we have the SPL relative to the reference pressure 20 micropascals (dB SPL)</li>
+	          </ul>
+
+	          These curves PRETEND to show all sounds with different frequencies that are PERCEIVED EQUALLY LOUD as a sound of x dB SPL at 1000 Hz.
+	          <br>
+	          So for instance, if a pure tone is played at <b>1000 Hz at 50 dB</b>, to PERCEIVE the SAME LOUDNESS at a frequency <b>90 Hz</b>, we would need to play the 250 Hz tone at <b>60 dB</b> instead of 50 dB.
+	          <br>
+	          <ul>
+	            <li> The 1000 Hz is chosen as the <b>REFERENCE FREQUENCY</b>, </li>
+	            <li> and the <b>UNIT of LOUDNESS</b> for PURE TONES is called PHON and corresponds <b>PERCEPTUALLY</b> to the LEVEL played at 1 kHz.</li>
+	          </ul>
+
+	          So, in the case of the <b>60 dB at 250Hz</b> to be perceived as loud as the 50 dB at 1000 Hz, we would say that:
+	          <br> <b>"the sound at 60 db SPL at 250Hz has a LOUDNESS of 50 PHONS"</b>.
+	          <br>
+	          <b>- LOW freq.: </b> We can also OBSERVE that
+	          <ul>
+	            <li> the ear is LESS SENSITIVE to LOW FREQUENCIES (so we need more SPL to hear low freq.), </li>
+	            <li> and this DISCRIMINATION AGAINS LOWS becomes STEEPER for SOFTER sounds. </li>
+	          </ul>
+	          Ex:
+	          <ul>
+	            <li> to perceive <b>90 phons</b> at 100 hz, we would need to play 100 Hz at a SPL of <b>93 dB</b> (just 3 dB HIGHER than 90 SPL at 1Khz)</li>
+	            <li> to perceive <b>60 phons</b> at 100 hz, we would need to play 100 Hz at a SPL <b>66 dB</b> (6 dB HIGHER)
+	            <li> to perceive <b>20 phons</b> at 100 hz, we would need to play 100 Hz at a SPL <b>36 dB</b> (16 dB HIGHER)
+	          </ul>
+
+	          Finally, we can SEE that the <b>MAXIMUM SENSITIVITY</b> region for human hearing is around <b>3-4 kHz</b>.
+	          <br>
+	          <!-- TEACHING Does anyone know why? -->
+	          <br>
+	          The <b>REASON</b> is because our <b>EAR CANAL has a RESONANCE</b> around this region and so, it <b>NATURALLY HELPS to HEAR</b> the frequencies between 3-4 kHz.
+	          <br>
+	          <b>Sound discrimination</b>: Over 500 - 4000 Hz and 35 - 80 dB SPL (where humnas are MOST SENSITIVE), listeners are able to DISCRIMINATE:
+	          <ul>
+	            <li> About <b>1 dB</b> in sound level (50 db and 51 dB)</li>
+	            <li> and about a <b>half of a percent</b> change in tonal frequency (2000 Hz and 2010 Hz).</li>
+	          </ul>
+
+	          Before GOING to the next section, just note that in this plot, we can also see the <b>HEARING THRESHOLD</b> we have seen on the slide before which corresponds to this <b>lower cruve</b> CORRESPONDING to <b>0 PHONS</b>.
+
+
+	        </aside>
+
+	      </section>
+
+
+	      <section class="stack">
+
+	        <h1 class="title" >Classical Pure-Tone Audiometry</h1>
+	      </section>
+
+
+
+	      <section class="stack">
+
+	        <h4 class="title"><em>Classical Pure-Tone Audiometry</em></h4>
+	        <h6 class="title">A bit of history</h6>
+	        The field of psychophysics -study the relation between <span style="color:#3a84b8;">stimuli and perception</span>- was pioneered by Gustav Fechner in the 1860s:
+	        <br>
+	        <ul>
+	          <li><span style="color:#3a84b8;">the method of limits</span> </li>
+	          <li><span style="color:#3a84b8;">the method of adjustment</span> </li>
+	          <li><span style="color:#3a84b8;">the method of constant stimuli</span></li>
+	        </ul>
+	        <br><br>
+	        In the 1920s, a graduate student at the University of Iowa, C.C.Bunch, applied <span style="color:#3a84b8;">Fechner’s Method of Limits to hearing</span>.
+
+
+
+	        <aside class="notes">
+	          <b>Psychophysics:</b> the branch of psychology that deals with the relations between physical stimuli and mental phenomena.
+	          Fechner (Germany) introduced various methods for quantitatively measuring the relationship between stimuli and perception:
+	          <br>
+	          he asked what is the MINIMAL STIMULS STRENGTH, or “threshold,” below which there is NO AWARENESS of the stimulus.
+	          <br>
+	          <ul>
+	            <li><b>the method of limits:</b> the stimulus is presented in either ASCENDING or DESCENDING order to determine the smallest amount detectable.
+	              This sequence of descending and ascending runs is REPEATED 3 or more times.
+	              Threshold is defined as the midpoint between the average of descending runs and the average of ascending runs. </li>
+	            <li><b>the method of adjustment:</b> the OBSERVER continuously ADJUSTS the stimulus until they can or cannot perceive it.
+	              Successive trials are averaged to define the threshold response.
+	              <br>This differs from the method of limits, because the individual is NOT giving a YES or NO response on each trial.
+	              Instead, they are responsible for adjusting the stimulus themselves. </li>
+	            <li><b>and the method of constant stimuli:</b> it presents, in a RANDOM order, the stimuli know to be close to the threshold. The threshold is the stimulus value that was detected 50% of the time.
+	              <br> Drawbacks: it needs for many trials and it is needed to know where the threshold might be to present the stiumulus around it.
+	            </li>
+	          </ul>
+	          These methods were not suggested for HEARING but rather for any other kind of PHYSICAL STIMULI (Vision, weight perception, etc), so in a way, they were GENERAL methods.
+	          <br>
+	          For sound perception, in the 1920s a graduate student from the Univ. of Iowa, C.C.Bunch, who studied carefully all the work by Fechner, started publishing his adapted technique which was the method of LIMITS applied to hearing.
+	        </aside>
+
+	      </section>
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Classical Pure-Tone Audiometry</em></h4>
+
+
+
+	        <h6 class="title">Bunch (1920s) vs. Hughson-Westlake (1944)</h6>
+
+	        <div class="ulist">
+
+
+
+
+
+	            <div class="ulist">
+	              <ul style="width: 120%;">
+
+
+	                <li><span style="color:#3a84b8;">short tone-bursts + silence </span> </li>
+	                <li><span style="color:#3a84b8;">5-dB steps</span> </li>
+	                <li>threshold level by <span style="color:#3a84b8;">the ascending run seemed more stable.</span> </li>
+
+
+	              </ul>
+
+
+
+	            </div>
+	            <img src="assets/bunch_vs_Hughson_Westlake.jpg" alt="Websocket" width="50%" style="float: center">
+
+
+	        </div>
+
+	        The Hughson-Westlake method known as the <span style="color:#3a84b8;">“ascending method.” </span>
+
+	        <aside class="notes">
+
+	          During the 1930s, clinicians were following Bunch's technique and were observing different effects:
+	          <ul>
+	            <li><b>short tone-bursts</b> should against a background of silence rather than </b>long continuous tones</b>, separated only briefly by short intervals of silence as the level was changed (specially for HIGH FREQ:) between tone
+	              presentations (Partly, this concern arose because many noted that subjects adapted to the loudness of high-frequency tones (especially 4000 and 8000 Hz) quickly if the tone was presented for any length of time, particularly if there was
+	              hearing loss at these high frequencies.)</li>
+
+	            <li>when using 5-dB steps, there was little difference between the threshold levels revealed by descending versus ascending runs. </li>
+	            <li>the threshold level defined by the ascending run seemed more <b>STABLE.</b></li>
+
+	          </ul>
+
+	          In 1944 a paper of major historical significance by Walter Hughson and Harold Westlake was published taking into account the experiences and observations from the clinicians.
+	          <br>
+	          The figure shows the contrast between Bunch’s <b>ORIGINAL</b> technique with the <b>SUBSEQUENT</b> Hughson-Westlake technique.
+	          In Bunch’s method, the test tone was on almost continuously, being interrupted only when the intensity level was changed.
+	          By contrast, in the Hughson-Westlake method, short tone bursts are separated by longer periods of silence as the intensity level is changed.
+	          Note also that Bunch approached threshold from both directions while Hughson-Westlake relies heavily only on an ascending series.
+	          <br>
+	          Thus, the Hughson-Westlake recommendations became known as the “ascending method.” The threshold was usually defined as the lowest level at which there had been a response at 2 out of 3 ascending runs.
+
+	        </aside>
+
+	      </section>
+
+
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Classical Pure-Tone Audiometry</em></h4>
+	        <h6 class="title">Carhart and Jerger's publication (1950)</h6>
+
+	        <div class="ulist">
+	          <ul>
+
+	            <div class="ulist">
+	              </br>
+	              <img src="assets/Audiogram_example.png" alt="Websocket" width="32%" style="float: right">
+	              <ul style="width: 90%;">
+
+	                <li>Stimulus: Pure-tone 1s. </li>
+	                <li> then <span style="color:#3a84b8;">INCREASE</span> from below this point until a <span style="color:#3a84b8;">response first appears</span></li>
+
+	                <li> <span style="color:#3a84b8;">REDUCE</span> strength of the stimulus until <span style="color:#3a84b8;">no response</span>, </li>
+	                <li> <span style="color:#3a84b8;">Repeat</span> ascendent + descent 3 or more times</li>
+	                <li> Threshold: <span style="color:#3a84b8;">lowest level</span> detected for at least 2 times </li>
+	              </ul>
+
+
+	            </div>
+
+	          </ul>
+
+	        </div>
+
+
+
+	        <aside class="notes">
+	          During the 1950s, Carhart and Jerger PUBLISHED the details of the Hughson-Westlake method that WERE NOT ELABORATED in the original article:
+	          <ul>
+	            <li> discussed the <b>psychoacoustic foundations</b> of clinical <b>threshold testing</b>,</li>
+	            <li> compared <b>ascending and descending</b> protocols,</li>
+	            <li> discussed the <b>5-dB step size</b> that is now in nearly universal use,</li>
+	            <li> and established a <b>sound scientific basis for pure-tone threshold</b> testing</li>
+	          </ul>
+	          <br>
+	          This technique is today the GOLD STANDARD of hearing sensitivity and is called the PURE-TONE AUDIOMETRY.
+	          <br>
+
+	        </aside>
+
+	      </section>
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Classical Audiometry</em></h4>
+
+	        <h6 class="title">Audiogram: Thresholds of Hearing</h6>
+
+
+	        <img src="assets/Audiogram_example.png" alt="Websocket" width="50%" style="float: center">
+
+
+	        <aside class="notes">
+	          The audiogram is the result of doing an audiometry.
+	          <ul>
+	            <li>Test both ears separately </li>
+	            <li> Freq. Range: 250-8000 Hz (spectrum of speech sounds)</li>
+	            <li>Frequencies at octave frequency intervals </li>
+	            <li>Pure tone signals of duration 500 ms (4-6s of silence)</li>
+	          </ul>
+	        </aside>
+	Note that the y-label is on the opposite direction as one would expect or is used to.
+	<br>
+	There is also a quite significant range of levels where the Hearing is considered as "Normal". So, if a tested person returns a value between -10 and 20 dB from the averaged Hearing Level, this person will be considered to have a normal hearing. More than 20 dB in difference, a Hearing Loss is detected and certianly has different levels: Mild, moderate, Severe, Profund.
+	      </section>
+
+
+
+
+
+
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Psychometric function</em></h4>
+
+
+	      <div class="ulist">
+	          <ul>
+
+	              <div class="ulist">
+	                  </br>
+	                  <img src="assets/Psychophysical_function.png" alt="Websocket" width="35%" style="float: right">
+	                      <ul style="width: 40%;" style="float: left">
+	                        <span style="color:#3a84b8;">Gauss error function</span>:
+	                        $$erf (x) = \frac{1}{\sqrt(\pi)}\int_{-x}^{x} e^{-t^2}d t$$
+
+	                      </ul>
+
+	                      </div>
+
+	          </ul>
+
+	      </div>
+
+
+
+
+
+	      <span style="color:#3a84b8;">Interpretation</span>: for a random variable Y that is $N(0, \sigma)$, $erf(\frac{x}{\sigma\sqrt{2}})$ is the PROBABILITY that Y falls in the range [−x, x].
+	      <br>
+
+
+
+
+	        <aside class="notes">
+	      The interpretation of the Error Funtion is that for a random variable Y that is NORMALLY distributed with MEAN 0 and VARIANCE 1/2, erf x is the PROBABILITY that Y falls in the range [−x, x].
+	      <br>
+	      What do we need that function for? A person tested, would not always clearly respond "yes" or "no" to the level exposed. If the person had a cold, if he/she had a stressful day, if she/he listened to high level music before, etc are some situations that might affect the determination. This means that the response is a stochastic process and thus, some range of levels around the true hearing threshold of that person is related to some probability of the person giving a positive or negative answer. This is why we use a so called Psychometric function to illustrate and model that stochastic effect.
+	      <br>
+	      The physchometric function showed in this figure is the error function with a width or standard deviation of 1.4 over a range of $\pm$6 dB.
+	      <br>
+	      The expected Hearing Threshold would be the 0 dB (this is when there is a 50% probability that the tested person gives a positive respons). Whenever a sound is played at any level lower than this reference 0dB, the probability is higher than 50% (note that this means, for instance, that is there is a sound level played at +2dB, there is a 93% probability that the person HEARS the sound but still a 7% of cases where the same person will respond that she/he does not hear it).
+
+	        </aside>
+
+	      </section>
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Classical Audiometry</em></h4>
+
+	        <h6 class="title">Simulation of Pure-Tone Audiometry</h6>
+
+
+	        <img src="assets/Simulation_PTA.png" alt="Websocket" width="120%" style="float: center">
+
+
+	        <aside class="notes">
+	          Here is a Matlab Simulation for an audiometry. Starting at a level where the tested person can not hear (usually, the audiologist will start by playing a clearly audible level so that the person gets a sense of which sound is she/he expected to hear to, and then get that level low so that it might the hearing treshold potentially from a non-audible level), in this simulation the next level will be + 4dB higher when the level has not been heard, and -2 dB lower when the levels has been heard.
+	          <br>
+	          The threshold for that tested person is determined by the lowest level that she/he has detected at least 2 times out of 3. In this case, 10 stimuli have been required to obtained the Hearing threshold of 2dB.
+	          <br>
+	          What happens if one starts from another level? Let's say -15dB? Note that the expected Hearing Threshold (0 dB) will not be possible to reach due to the +4dB and -2 dB. Also, more presentations will be needed to obtain the hearing threshold (note that this should be done for each frequency one would like to test and for the 2 ears separately!). It is obvious that setting up the range and the resolution (how many dB up / how many down) is finally a compromise between accuracy on the result and time required to do the test.
+	          <br>
+
+
+	        </aside>
+
+	      </section>
+
+
+
+
+
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>NEWT method</em></h4>
+
+	        <h6 class="title"></h6>
+	NEWT = New Early Warning Test
+
+	      <ul>
+
+	        <li><span style="color:#3a84b8;">Stimulus</span> : 2 pure-tone repetitions
+	        <ul>
+	          <li>each of duration of 150 ms</li>
+	          <li>with raised cosine fade in and out of 10 ms each</li>
+	          <li>time gaps between them of 150 ms</li>
+	            </ul></li>
+	        <li> <span style="color:#3a84b8;">Strengths of the stimulus:</span>
+	        <ul>
+	          <li> determined from a physchometric function</li>
+	          <li> presented randomly</li>
+	            </ul></li>
+	        <li> <span style="color:#3a84b8;">Threshold</span>: Maximum Likelihood estimation using the physchometric function </li>
+	      </ul>
+	      <aside class="notes">
+
+	        The NEWT is an automated method (the audiometry is a manual method) which was developed by SINTEF and NTNU in 2014. It is also a pure-tone presentation but it will use 2 instances of it of duration 150 ms, with raised cosine fade in and out of 10 ms each, and with a 150 ms time faps in between. The reason for that is that they found out that a simple pur-tone instance has an effect on the tested person (it might get bored, asleep and thus not answer properly to the test), and with that type of stimulus, the tested person seems to give more stable responses.
+	        <br>
+	        The NEWT presents the different levels in a random order, always approaching to the expected Hearing Treshold using a priorly determined Psychometric function.
+	        <br>
+	        Finally, the Hearing Threshold is determined by a Maximum Likelihood estimation using the psychometric function.
+	        <br>
+	        Next slide is a quick diagram (drwan in the blackboard) of how it works to determine the new level.
+
+	      </aside>
+
+	      </section>
+
+
+
+	    <section class="stack">
+	      <h4 class="title"><em>NEWT method</em></h4>
+
+	      <h6 class="title">(drawn in class on blackboard)</h6>
+
+
+	      <img src="assets/Blackboard_NEWT_levels.jpg" alt="Websocket" width="120%" style="float: center">
+
+
+	    </section>
+
+
+
+
+
+	    <section class="stack">
+	      <h4 class="title"><em>NEWT method</em></h4>
+
+	      <h6 class="title">NEWT vs. PTA</h6>
+	      <ul>
+
+	        <li> <span style="color:#3a84b8;">Less stringent</span> background noise vs. <span style="color:#3a84b8;">quiet</span> background noise</li>
+	      <li> <span style="color:#3a84b8;">Automated</span> method vs. <span style="color:#3a84b8;">Manual</span> method</li>
+	      <li> Utilize a software inter- face to administer the test, thereby controlling for <span style="color:#3a84b8;">tester variability</span> vs. <span style="color:#3a84b8;">no method</span> to test variability</li>
+
+	<li> <span style="color:#3a84b8;">Fast (daily)</span> vs. <span style="color:#3a84b8;">time-consuming</span>
+	</ul>
+	      <aside class="notes">
+
+
+	      </aside>
+
+	      </section>
+
+
+	      <section class="stack">
+	        <h4 class="title"><em>Hearing protectors: lab 3 </em></h4>
+
+	        3 different tests:
+	        <br>
+	        <br>
+	        <ol>
+
+	          <li> Measure the Hearing threshold with  <span style="color:#3a84b8;">pure-tone audiometry</span></li>
+	        <li> Measure the Hearing threshold with  <span style="color:#3a84b8;">NEWT</span></li>
+	        <li> Measure the Hearing threshold with  <span style="color:#3a84b8;">NEWT with hearing protector</span></li>
+	        <ol>
+	<li>Classical over-the-ear hearing protector</li>
+	          <li>foam earplug</li>
+	        </ol>
+
+	    </ol>
+	        <aside class="notes">
+
+
+	        </aside>
+
+	        </section>
+
+
+	    </div>
+	  </div>
+
+	  <script src="lib/js/head.min.js"></script>
+	  <script src="js/reveal.js?ver=1.0"></script>
+
+	  <script>
+	    // More info about config & dependencies:
+	    // - https://github.com/hakimel/reveal.js#configuration
+	    // - https://github.com/hakimel/reveal.js#dependencies
+	    Reveal.initialize({
+	      math: {
+	        mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+	        config: 'TeX-AMS_HTML-full' // See http://docs.mathjax.org/en/latest/config-files.html
+	      },
+	      dependencies: [{
+	          src: 'plugin/markdown/marked.js'
+	        },
+	        {
+	          src: 'plugin/markdown/markdown.js'
+	        },
+	        {
+	          src: 'plugin/notes/notes.js',
+	          async: true
+	        },
+	        {
+	          src: 'plugin/math/math.js',
+	          async: true
+	        },
+	        {
+	          src: 'plugin/highlight/highlight.js',
+	          async: true,
+	          callback: function() {
+	            hljs.initHighlightingOnLoad();
+	          }
+	        }
+	      ]
+	    });
+	  </script>
+
+
+
+	  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	  <script type="text/javascript">
+	    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+	    var header = $('#header').html();
+	    if (window.location.search.match(/print-pdf/gi)) {
+	      Reveal.addEventListener('ready', function(event) {
+	        $('.slide-background').append(header);
+	      });
+	    } else {
+	      $('div.reveal').append(header);
+	    }
+	  </script>
+
+
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
